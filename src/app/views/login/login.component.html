@@ -1,0 +1,28 @@
+<form #userLogin = "ngForm">
+  <div class="imgcontainer">
+    <img src="assets/img/Logo5.png" alt="logo">
+  </div>
+
+  <h3>Login</h3>
+
+  <div class="login-caixa container">
+    <p class="uname-email"><label for="uname"><b>Email</b></label>
+      <input type="email" placeholder="Digite o seu email" name="uname" required [(ngModel)] = "userModel.email"/>
+    </p>
+
+    <p class="psw-senha"><label for="psw"><b>Senha</b></label>
+      <input type="password" placeholder="Digite sua senha" name="psw" required [(ngModel)] = "userModel.senha"/>
+    </p>
+  </div>
+
+  <div class="botoes-login container">
+    <div class="row">
+      <button id="login-site" class="botao-login" type="submit">Login</button>
+      <button id="login-site" class="botao-cadastro" routerLink="#">Cadastro</button>
+    </div>
+      <div class="cancelbtn">
+        <button routerLink=" " class="cancelbtn1">Cancelar</button>
+      </div>    
+  </div>
+
+</form>

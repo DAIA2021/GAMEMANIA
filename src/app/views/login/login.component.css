@@ -1,0 +1,75 @@
+form{
+    background-color: rgb(245, 237, 237);    
+}
+
+img{    
+    width: 200px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 44%;
+}
+h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.login-caixa p{
+    align-items: center;
+    margin-left: 30%;    
+}
+.login-caixa input{
+    width: 50%;
+    height: 45px;
+    border-radius: 7pt;
+    border-style: outset;
+    border-width: 3pt;
+    margin-left: 10px;    
+    border-color:lightgray;
+}
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus{
+    background-color: lightblue;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 4pt;
+    outline: none;
+    
+}
+.uname-email input{
+    margin-left:14px;
+}
+button{
+    margin-left: 30%; 
+    width: 100px;
+    height: 45px;
+    margin-top: 30px;
+    border-radius: 7pt;
+    border-style: outset;
+    border-color: lightgray;
+    border-width: 3pt;
+}
+.botao-login{
+    margin-left:38%;
+    background-color: green;
+}
+.botao-cadastro{
+    margin-left: 12%;
+    background-color: blue;
+}
+.cancelbtn{
+    margin-left: 25%;
+    padding-bottom: 80px;
+    
+}
+.cancelbtn1{
+    background-color: red;
+}
+button:hover {
+    color:white;
+}
+
+button:focus,
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0 3px 0 0 darkgray;
+}

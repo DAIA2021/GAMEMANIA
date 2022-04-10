@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "email": "daiana.davi2411@gmail.com",
+      "password": "da230381",
+      "nome": "Daiana",
+      "id": 1
+    },
+    {
+      "email": "thiago@email.com",
+      "password": "$2a$10$sahWmZJRmIbla8fY/WSx8OsG/EsLPwyQ2CE5Kok4uOc/fnVCq3PvK",
+      "nome": "thiago",
+      "id": 2
+    },
+    {
+      "email": "daiana@email.com",
+      "password": "$2a$10$e5cdj3T1n9TtTIBXdTrLyuJbe0GfCwBLjH3Wl5qldvErYlQDE5vNG",
+      "nome": "Daiana",
+      "id": 3
+    }
+  ]
+}
