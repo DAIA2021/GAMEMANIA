@@ -1,4 +1,6 @@
-<form #userLogin = "ngForm">
+<!-- faltou colocar o (ngSubmit)="onSubmit()" depois do ng form, sem ele não vai ter nenhuma ação depois que vc clicar no botão de login e o mesmo não será realizado -->
+
+<form method="post" #userLogin="ngForm" (ngSubmit)="onSubmit()">
   <div class="imgcontainer">
     <img src="assets/img/Logo5.png" alt="logo">
   </div>
@@ -7,11 +9,13 @@
 
   <div class="login-caixa container">
     <p class="uname-email"><label for="uname"><b>Email</b></label>
-      <input type="email" placeholder="Digite o seu email" name="uname" required [(ngModel)] = "userModel.email"/>
+      <!-- Você colocou um espaço no = do [(ngModel)]= e o mesmo não estava funcionando. Sem ele, o seu código não estava captando o email -->
+      <input type="email" placeholder="Digite o seu email" name="uname" [(ngModel)]="userModel.email" required>
     </p>
 
     <p class="psw-senha"><label for="psw"><b>Senha</b></label>
-      <input type="password" placeholder="Digite sua senha" name="psw" required [(ngModel)] = "userModel.senha"/>
+      <!-- Você colocou um espaço no = do [(ngModel)]= e o mesmo não estava funcionando. Sem ele, o seu código não estava captando a senha -->
+      <input type="password" placeholder="Digite sua senha" name="psw"  [(ngModel)]="userModel.password" required>
     </p>
   </div>
 
