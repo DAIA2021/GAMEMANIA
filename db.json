@@ -17,6 +17,12 @@
       "password": "$2a$10$e5cdj3T1n9TtTIBXdTrLyuJbe0GfCwBLjH3Wl5qldvErYlQDE5vNG",
       "nome": "Daiana",
       "id": 3
+    },
+    {
+      "email": "teste@email.com",
+      "password": "$2a$10$UZXc5gjyz0vpHx8zLcpb6uqWfXMP57GM/UgSiDrtxxFGRMnaB8iUe",
+      "nome": "Teste ",
+      "id": 4
     }
   ]
 }
